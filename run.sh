@@ -22,4 +22,4 @@ echo "## Entering Mounted RancherOS ISO" && \
 echo "## Credentials: ${password}    (rancher)" && echo "##  Kernel-Executing RancherOS" && \
     kexec --initrd ./boot/initrd-v1.2.0 \
     --command-line="rancher.password=${password}" \
-    ./boot/vmlinuz-v1.2.0
+    ./boot/vmlinuz-4.9.78-rancher2
